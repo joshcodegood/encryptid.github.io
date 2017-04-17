@@ -1,14 +1,71 @@
 <!doctype html>
 <html>
-    <head>
-        <title>JLawson</title>
-        <link rel="stylesheet" href="/style.css">
-        <script src="/app.js"></script>
-    </head>
+
+<head>
+    <title>JLawson</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.1/angular.js"></script>
+    <script src="https://npmcdn.com/angular-ui-router@1.0.0-beta.3/release/angular-ui-router.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <!--<script src="app.js"></script>-->
+</head>
 
 <body>
-        <h3>About</h3>
-        <h3>Portfolio</h3>
-        <h3>Contact</h3>
+    <main>
+
+        <h1 ng-show="current('/home')">Welcome to the landing page for Joshua Lawson.</h1>
+
+        <section>
+            <h2>Contact</h2>
+            <div class="logo">
+                <a href="mailto:ordinarycryptid@gmail.com" target="_blank"><img src="/images/logo_gmail_32px.png"></a>
+                <a href="https://github.com/encryptid" target="_blank"><img src="/images/GitHub-Mark-Light-32px.png"></a>
+                <a href="https://www.linkedin.com/in/joshua-lawson-a47614133/" target="_blank"><img src="/images/In-2C-34px-TM.png"></a>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="projects">
+                <div class="proj1">
+                    <a href="http://orange-pickle.surge.sh" target="_blank"><img src="images/movies.png"></a>
+                    <sup>Movie Emporium</sup>
+                </div>
+                <div class="proj2">
+                    <a href="#" target="_blank"><img src="images/cardsharks.png"></a>
+                    <sup>Card Sharks</sup>
+                </div>
+                <div class="proj3">
+                    <a href="https://www.google.com" target="_blank"><img src="images/google.png"></a>
+                    <sup>More coming soon!</sup>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>About</h2>
+            <p>Hello. I'm Joshua Lawson and this is my landing page. Here is a little about me:<br><br> I tried to fight it.
+                Tried to pretend it wasn't there. But it was, all the time, haunting me.<br><br> It started when I was young.
+                The internet was just becoming a "thing". Thousands of people were signing into chat rooms preceded by that
+                awful dial-up tone. I would help my neighbors and family members with their computers. "You're so good with
+                computers!” they would exclaim. And I felt like a wizard. It seemed natural to me, but people were in awe
+                of my ability. My career path, it seemed, was obvious.<br><br> But disaster struck teenage Josh when he came
+                against an obstacle he was not mature enough to overcome: failure. That's right; I failed one of my certification
+                tests.<br><br> I have grown a lot in the intervening years, but teenage Josh took his failure as a sign that
+                he was not cut out to be in the tech industry, as he once believed. And so, with a heavy heart, I put away
+                my pocket protector and put on my work boots. What followed was a series of menial jobs, each slightly better
+                than the last, but never fulfilling.<br><br> When it came time to shift gears again, I asked myself what
+                I truly wanted to do. The answer was simple; I loved technology. I wanted to be around it.<br><br> So I chose
+                to pursue a career in Front End Web Development. I enrolled at The Iron Yard and embarked upon one of the
+                most challenging and rewarding things I've ever done. And though I’m excited for what the future now holds,
+                I wouldn't call all those other jobs a waste. On the contrary, I learned a lot about myself and what I can
+                accomplish, about working for companies and what they expect, about working with clients and making them
+                happy, and most of all, about working with people.<br><br> My work history to this point shows that I can
+                do almost anything and my education shows that I can learn almost anything, quickly. I look forward to applying
+                this to my future endeavors.<br><br>
+            </p>
+        </section>
+    </main>
 </body>
+
 </html>

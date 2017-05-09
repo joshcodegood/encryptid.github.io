@@ -1287,13 +1287,13 @@ body {
       margin-bottom: 0;
       border-top-right-radius: 5px;
       border-top-left-radius: 5px; }
-    body main section p {
+    body main .contact p {
       margin-top: 0;
       padding-left: 25px;
       border: 1px solid #00FF00;
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px; }
-    body main section .logo {
+    body main .contact .logo {
       text-align: center;
       border: 1px solid #00FF00;
       margin-top: 0;
@@ -1301,30 +1301,53 @@ body {
       padding-bottom: 25px;
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px; }
-      body main section .logo img {
+      body main .contact .logo img {
         padding: 20px; }
     body main .portfolio .projects {
-      max-width: 75rem;
-      margin-right: auto;
-      margin-left: auto;
-      border: 1px solid #00FF00; }
-      body main .portfolio .projects::before, body main .portfolio .projects::after {
-        display: table;
-        content: ' '; }
-      body main .portfolio .projects::after {
-        clear: both; }
-      body main .portfolio .projects div {
-        width: 33.33333%;
-        float: left;
-        padding-right: 0.625rem;
-        padding-left: 0.625rem;
+      border: 1px solid #00FF00;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px; }
+      body main .portfolio .projects .project {
+        max-width: 75rem;
+        margin-right: auto;
+        margin-left: auto;
+        border: 1px solid #00FF00;
         text-align: center;
-        margin-top: 20px; }
-        @media print, screen and (min-width: 40em) {
-          body main .portfolio .projects div {
-            padding-right: 0.9375rem;
-            padding-left: 0.9375rem; } }
-        body main .portfolio .projects div:last-child:not(:first-child) {
-          float: right; }
-        body main .portfolio .projects div img {
-          border: 1px solid #00FF00; }
+        margin: 0; }
+        body main .portfolio .projects .project::before, body main .portfolio .projects .project::after {
+          display: table;
+          content: ' '; }
+        body main .portfolio .projects .project::after {
+          clear: both; }
+        body main .portfolio .projects .project figure {
+          width: 50%;
+          float: left;
+          padding-right: 0.625rem;
+          padding-left: 0.625rem;
+          margin: 0; }
+          @media print, screen and (min-width: 40em) {
+            body main .portfolio .projects .project figure {
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem; } }
+          body main .portfolio .projects .project figure:last-child:not(:first-child) {
+            float: right; }
+        body main .portfolio .projects .project p {
+          width: 50%;
+          float: left;
+          padding-right: 0.625rem;
+          padding-left: 0.625rem;
+          vertical-align: middle; }
+          @media print, screen and (min-width: 40em) {
+            body main .portfolio .projects .project p {
+              padding-right: 0.9375rem;
+              padding-left: 0.9375rem; } }
+          body main .portfolio .projects .project p:last-child:not(:first-child) {
+            float: right; }
+    body main article p {
+      border: 1px solid #00FF00;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      padding-left: 5px;
+      margin-top: 0; }
+  body footer {
+    text-align: center; }

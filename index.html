@@ -15,7 +15,7 @@
 
         <h1 ng-show="current('/home')">Welcome to the landing page for Joshua Lawson.</h1>
 
-        <section>
+        <section class="contact">
             <h2>Contact</h2>
             <div class="logo">
                 <a href="mailto:ordinarycryptid@gmail.com" target="_blank"><img src="/images/logo_gmail_32px.png"></a>
@@ -27,45 +27,51 @@
         <section class="portfolio">
             <h2>Portfolio</h2>
             <div class="projects">
-                <div class="proj1">
-                    <a href="http://orange-pickle.surge.sh" target="_blank"><img src="images/movies.png"></a>
-                    <sup>Movie Emporium</sup>
+                <div class="project">
+                    <figure>
+                        <figcaption>Movie Emporium</figcaption>
+                        <a href="http://orange-pickle.surge.sh" target="_blank"><img src="images/movies.png"></a>
+                    </figure>
+                    <p>A movie app using the "Movie DB" API, Foundation, and AngularJS.</p>
                 </div>
-                <div class="proj2">
-                    <a href="#" target="_blank"><img src="images/cardsharks.png"></a>
-                    <sup>Card Sharks</sup>
+                <div class="project">
+                    <figure>
+                        <figcaption>Card Sharks</figcaption>
+                        <a href="http://quixotic-woman.surge.sh/" target="_blank"><img src="images/cardsharks.png"></a>
+                    </figure>
+                    <p>A little version of Card Sharks using a playing card API, JavaScript, HTML and CSS.</p>
                 </div>
-                <div class="proj3">
-                    <a href="https://www.google.com" target="_blank"><img src="images/google.png"></a>
-                    <sup>More coming soon!</sup>
+                <div class="project">
+                    <figure>
+                        <figcaption>Tablow</figcaption>
+                        <a href="https://fathomless-bastion-47154.herokuapp.com/" target="_blank"><img src="images/tablow.png"></a>
+                    </figure>
+                    <p class="cap">Acronym for "Text Adventure Based Lovingly on Websockets." It's silly, I know, but it's who I am. Uses
+                        Sass, Gulp, Foundation, AngularJS, and Websockets on the front end with Java and Spring on the back
+                        end. Back end handled by Mr. Stephen Williamson.</p>
                 </div>
             </div>
         </section>
 
-        <section>
-            <h2>About</h2>
-            <p>Hello. I'm Joshua Lawson and this is my landing page. Here is a little about me:<br><br> I tried to fight it.
-                Tried to pretend it wasn't there. But it was, all the time, haunting me.<br><br> It started when I was young.
-                The internet was just becoming a "thing". Thousands of people were signing into chat rooms preceded by that
-                awful dial-up tone. I would help my neighbors and family members with their computers. "You're so good with
-                computers!” they would exclaim. And I felt like a wizard. It seemed natural to me, but people were in awe
-                of my ability. My career path, it seemed, was obvious.<br><br> But disaster struck teenage Josh when he came
-                against an obstacle he was not mature enough to overcome: failure. That's right; I failed one of my certification
-                tests.<br><br> I have grown a lot in the intervening years, but teenage Josh took his failure as a sign that
-                he was not cut out to be in the tech industry, as he once believed. And so, with a heavy heart, I put away
-                my pocket protector and put on my work boots. What followed was a series of menial jobs, each slightly better
-                than the last, but never fulfilling.<br><br> When it came time to shift gears again, I asked myself what
-                I truly wanted to do. The answer was simple; I loved technology. I wanted to be around it.<br><br> So I chose
-                to pursue a career in Front End Web Development. I enrolled at The Iron Yard and embarked upon one of the
-                most challenging and rewarding things I've ever done. And though I’m excited for what the future now holds,
-                I wouldn't call all those other jobs a waste. On the contrary, I learned a lot about myself and what I can
-                accomplish, about working for companies and what they expect, about working with clients and making them
-                happy, and most of all, about working with people.<br><br> My work history to this point shows that I can
-                do almost anything and my education shows that I can learn almost anything, quickly. I look forward to applying
-                this to my future endeavors.<br><br>
-            </p>
-        </section>
+        <article>
+            <h2>A little about me:</h2>
+            <p>I grew up working class but always had an abiding interest in technology. The internet and I came of age at around
+                the same time. I was always tinkering and helping neighbors and relatives with their computers. What was
+                a nuisance to some was fun to me.<br><br> In high school, I elected to take a course that would have given
+                me a certification in Cisco networking. Working with computers was the one thing I had always been naturally
+                good at; as such, I phoned in the class and was left reeling when I failed the exam (passed the class, though!).
+                I had built my entire future around that class and I was completely lost with regards to where I should go
+                from there. I hadn’t had a lot of experience dealing with failure at that point, and I took it quite hard.<br><br>                So what followed after school was several years of trying on different careers; some of them fit more than
+                others, but over time, I always came to feel unfulfilled. Inside, I knew what I wanted to do, and other work
+                just wasn’t as satisfying to me. But as I got older, I didn’t see how I could make the transition into technology.<br><br>                The Iron Yard gave me an opportunity to try again. And though I wasn’t always satisfied with the work I was
+                doing before, I gained a lot of valuable experience trying different things; I discovered that I am a natural
+                leader and that I enjoy helping others be their best. I’m looking forward to taking all of this experience
+                and carving out a space in this digital world!</p>
+        </article>
     </main>
+    <footer>
+        <p>Copyright &copy 2017 Joshua Lawson</p>
+    </footer>
 </body>
 
 </html>

@@ -1331,18 +1331,24 @@ body {
               padding-left: 0.9375rem; } }
           body main .portfolio .projects .project figure:last-child:not(:first-child) {
             float: right; }
-        body main .portfolio .projects .project p {
+        body main .portfolio .projects .project .cap {
           width: 50%;
           float: left;
           padding-right: 0.625rem;
           padding-left: 0.625rem;
-          vertical-align: middle; }
+          height: 330px;
+          line-height: 330px;
+          text-align: center; }
           @media print, screen and (min-width: 40em) {
-            body main .portfolio .projects .project p {
+            body main .portfolio .projects .project .cap {
               padding-right: 0.9375rem;
               padding-left: 0.9375rem; } }
-          body main .portfolio .projects .project p:last-child:not(:first-child) {
+          body main .portfolio .projects .project .cap:last-child:not(:first-child) {
             float: right; }
+          body main .portfolio .projects .project .cap p {
+            line-height: 1.5;
+            display: inline-block;
+            vertical-align: middle; }
     body main article p {
       border: 1px solid #00FF00;
       border-bottom-left-radius: 5px;

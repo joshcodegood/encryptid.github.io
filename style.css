@@ -1303,6 +1303,12 @@ body {
       border-bottom-right-radius: 5px; }
       body main .contact .logo img {
         padding: 20px; }
+    body main .portfolio p {
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      background-color: #00FF00;
+      color: black; }
     body main .portfolio .projects {
       border: 1px solid #00FF00;
       border-bottom-left-radius: 5px;

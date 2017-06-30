@@ -1354,7 +1354,9 @@ body {
           body main .portfolio .projects .project .cap p {
             line-height: 1.5;
             display: inline-block;
-            vertical-align: middle; }
+            vertical-align: middle;
+            color: #00FF00;
+            background-color: black; }
     body main article {
       border: 1px solid #00FF00;
       border-top-left-radius: 5px;

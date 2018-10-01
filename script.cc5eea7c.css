@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,900|Permanent+Marker");
+header {
+  text-align: center;
+  font-weight: 900;
+  font-size: 3em; }
+  header .header-block {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: linear-gradient(rgba(186, 112, 154, 0.45), rgba(186, 112, 154, 0.45)), url("coffeeshop_s2.26c8eaa4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #D0719D; }
+    header .header-block h1, header .header-block h3 {
+      background: none;
+      color: white;
+      font-family: "Permanent Marker", cursive; }
+  header nav {
+    max-width: 100%; }
+    header nav ul {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 25px; }
+      header nav ul a {
+        list-style: none;
+        text-decoration: none; }
+      header nav ul li:hover {
+        color: white; }
+
+.contact-block {
+  margin: 0 auto;
+  width: 80vw;
+  border-top: 10px solid #293563;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  max-width: 100%; }
+  .contact-block h2 {
+    margin-top: 2vh;
+    margin-bottom: 5vh; }
+  .contact-block .logos {
+    display: flex;
+    justify-content: space-evenly; }
+
+.portfolio-block {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 25px;
+  border-top: 10px solid #293563;
+  width: 80vw; }
+
+* {
+  margin: 0;
+  padding: 0;
+  background: #D0719D;
+  color: #293563;
+  font-family: "Montserrat", "Helvetica", sans-serif;
+  font-size: 1em; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+
+h2 {
+  font-size: 2em; }
+
+.disp {
+  width: 500px; }
+
+#vinyl, #monitor, #Capa_1 {
+  padding: 10px;
+  width: 250px;
+  fill: #293563; }

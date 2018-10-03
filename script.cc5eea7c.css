@@ -17,7 +17,8 @@ header {
       color: white;
       font-family: "Permanent Marker", cursive; }
   header nav {
-    max-width: 100%; }
+    max-width: 100%;
+    margin-bottom: 25px; }
     header nav ul {
       display: flex;
       justify-content: space-evenly;
@@ -27,6 +28,41 @@ header {
         text-decoration: none; }
       header nav ul li:hover {
         color: white; }
+
+.bio-block {
+  text-align: center;
+  border-top: 10px solid #293563;
+  width: 80vw;
+  margin: 0 auto; }
+  .bio-block h2, .bio-block h3 {
+    margin-bottom: 5vh; }
+  .bio-block h2 {
+    margin-top: 5vh; }
+  .bio-block h3 {
+    font-size: 1.2em; }
+  .bio-block .icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px; }
+    .bio-block .icons .icon {
+      display: block;
+      border: 5px solid #293563;
+      border-radius: 7px;
+      background: #293563; }
+      .bio-block .icons .icon svg {
+        margin: 0 10px;
+        width: 250px;
+        fill: #D0719D;
+        background: #293563; }
+      .bio-block .icons .icon figcaption {
+        font-weight: bold;
+        margin-bottom: 10px;
+        background: #293563;
+        color: #D0719D; }
+  .bio-block p {
+    margin: 0 auto;
+    text-align: left;
+    max-width: 80%; }
 
 .contact-block {
   margin: 0 auto;
@@ -53,6 +89,29 @@ header {
   margin-top: 25px;
   border-top: 10px solid #293563;
   width: 80vw; }
+  .portfolio-block h2 {
+    margin-top: 2vh;
+    margin-bottom: 2vh; }
+  .portfolio-block figure {
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #293563; }
+    .portfolio-block figure h3 {
+      margin-bottom: 1vh; }
+    .portfolio-block figure img {
+      width: 450px;
+      margin-bottom: 1vh; }
+
+footer {
+  height: 6vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #293563; }
+  footer * {
+    background: #293563;
+    color: #D0719D; }
 
 * {
   margin: 0;
@@ -60,7 +119,8 @@ header {
   background: #D0719D;
   color: #293563;
   font-family: "Montserrat", "Helvetica", sans-serif;
-  font-size: 1em; }
+  font-size: 1em;
+  scroll-behavior: smooth; }
 
 html, body {
   width: 100%;
@@ -68,11 +128,3 @@ html, body {
 
 h2 {
   font-size: 2em; }
-
-.disp {
-  width: 500px; }
-
-#vinyl, #monitor, #Capa_1 {
-  padding: 10px;
-  width: 250px;
-  fill: #293563; }

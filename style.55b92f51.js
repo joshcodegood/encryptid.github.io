@@ -169,18 +169,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./../images/coffeeshop_s2.jpg":[["coffeeshop_s2.26c8eaa4.jpg","images/coffeeshop_s2.jpg"],"images/coffeeshop_s2.jpg"],"_css_loader":"../../../.nvm/versions/node/v7.2.0/lib/node_modules/parcel-bundler/lib/builtins/css-loader.js"}],"script.js":[function(require,module,exports) {
-'use strict';
-
-require('./sass/style.scss');
-
-var init = function init() {
-  return console.log('hi mom!');
-}; //fix this javascript
-
-
-window.addEventListener('load', init());
-},{"./sass/style.scss":"sass/style.scss"}],"../../../.nvm/versions/node/v7.2.0/lib/node_modules/parcel-bundler/lib/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./../images/coffeeshop_s2.jpg":[["coffeeshop_s2.26c8eaa4.jpg","images/coffeeshop_s2.jpg"],"images/coffeeshop_s2.jpg"],"_css_loader":"../../../.nvm/versions/node/v7.2.0/lib/node_modules/parcel-bundler/lib/builtins/css-loader.js"}],"../../../.nvm/versions/node/v7.2.0/lib/node_modules/parcel-bundler/lib/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -350,5 +339,4 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},["../../../.nvm/versions/node/v7.2.0/lib/node_modules/parcel-bundler/lib/builtins/hmr-runtime.js","script.js"], null)
-//# sourceMappingURL=/script.cc5eea7c.map
+},{}]},{},["../../../.nvm/versions/node/v7.2.0/lib/node_modules/parcel-bundler/lib/builtins/hmr-runtime.js"], null)

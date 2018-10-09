@@ -5,13 +5,15 @@ header {
   font-size: 3em; }
   header .header-block {
     height: 100vh;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background: linear-gradient(rgba(186, 112, 154, 0.45), rgba(186, 112, 154, 0.45)), url("coffeeshop_s2.26c8eaa4.jpg");
+    background: linear-gradient(rgba(186, 112, 154, 0.45), rgba(186, 112, 154, 0.45)), url("coffeeshop_s2.618e684d.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: #D0719D; }
+    background-color: #D0719D;
+    position: relative; }
     header .header-block h1, header .header-block h3, header .header-block a {
       background: none;
       color: white;
@@ -41,7 +43,16 @@ header {
   50% {
     bottom: 12vh; } }
 
+@keyframes mhover {
+  0%, 100% {
+    bottom: 10px; }
+  50% {
+    bottom: 20px; } }
+
 @media only screen and (max-width: 600px) {
+  #arrow {
+    bottom: 10px;
+    animation: mhover 1s ease-in-out infinite; }
   header nav ul {
     display: block; }
     header nav ul li {
@@ -79,15 +90,20 @@ header {
         color: #D0719D; }
   .bio-block p {
     margin: 2vh auto;
-    line-height: 1.2em;
+    font-size: 1.2em;
     text-align: left; }
 
 @media only screen and (max-width: 700px) {
+  .bio-block p {
+    font-size: 2em; }
   .bio-block .icons {
     display: block; }
-    .bio-block .icons figure {
+    .bio-block .icons .icon {
       margin: 5vh auto;
-      width: 50%; } }
+      width: 50%;
+      min-width: 155px; }
+      .bio-block .icons .icon svg {
+        width: 135px; } }
 
 .contact-block {
   margin: 0 auto;
@@ -105,6 +121,25 @@ header {
   .contact-block .logos {
     display: flex;
     justify-content: space-evenly; }
+  .contact-block .logo {
+    width: 120px;
+    height: 120px;
+    fill: #293563; }
+  .contact-block #linkedin {
+    background: #293563;
+    fill: #D0719D;
+    border-radius: 10px; }
+
+@media only screen and (max-width: 600px) {
+  .contact-block {
+    display: block; }
+    .contact-block .logos {
+      display: block; }
+      .contact-block .logos * {
+        display: block;
+        margin: 0 auto; }
+      .contact-block .logos #octo {
+        margin-bottom: 2vh; } }
 
 .portfolio-block {
   display: flex;
@@ -125,6 +160,7 @@ header {
       margin-bottom: 1vh; }
     .portfolio-block figure img {
       width: 450px;
+      max-width: 100%;
       margin-bottom: 1vh; }
   .portfolio-block figure:last-child {
     border-bottom: none; }
@@ -139,6 +175,16 @@ footer {
   footer * {
     background: #293563;
     color: #D0719D; }
+
+@media only screen and (max-width: 600px) {
+  footer {
+    display: block;
+    text-align: center;
+    height: 10vh; }
+    footer * {
+      margin: 1vh auto; }
+    footer p {
+      padding-top: 1vh; } }
 
 * {
   margin: 0;
